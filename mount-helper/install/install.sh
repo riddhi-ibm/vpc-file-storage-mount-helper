@@ -28,7 +28,7 @@ DOWNLOADED_RHEL_PACKAGE_PATH="packages/rhel/$VERSION"
 #              Name              Min Version    Install
 LINUX_UBUNTU=("Ubuntu"           "18"           "$APT")
 LINUX_DEBIAN=("Debian GNU/Linux" "10"           "$APT")
-LINUX_CENTOS=("CentOS Linux"     "7"            "$YUM")
+LINUX_CENTOS=("CentOS Stream"     "9"            "$YUM")
 LINUX_ROCKY=("Rocky Linux"       "8"            "$YUM")
 LINUX_FEDORA=("Fedora Linux"     $NA            $NA)
 LINUX_SUSE=("SLES"               "12"           "$ZYP")
